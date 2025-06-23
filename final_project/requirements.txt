@@ -1,0 +1,10 @@
+streamlit
+pandas
+matplotlib
+seaborn
+scikit-learn
+fpdf
+joblib
+langchain
+langchain-groq
+python-dotenv
