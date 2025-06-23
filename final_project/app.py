@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import seaborn as sns
@@ -54,9 +55,10 @@ def generate_pdf(input_data, prediction, probability=None):
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("reduced_student_dropout.csv")
+    base_path = os.path.dirname(__file__)  # Gets /final_project
+    file = os.path.join(base_path, "reduced_student_dropout.csv")
+    df = pd.read_csv(file)
     return df
-
 
 df = load_data()
 
