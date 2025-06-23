@@ -80,7 +80,8 @@ imp=X.columns
 import joblib
 
 # Load trained model
-model = joblib.load("random.pkl")
+model = joblib.load(os.path.join(os.path.dirname(__file__), "random.pkl"))
+
 
 
 # --- Streamlit App ---
