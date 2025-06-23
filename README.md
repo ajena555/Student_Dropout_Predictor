@@ -112,4 +112,4 @@ It uses context-aware LLaMA-4 responses based on markdown knowledge files.
 
 This project was built with the help of:
 
-- [@username](https://github.com/AnkitaMishra4) – Contributor
+- [Ankita Mishra](https://github.com/AnkitaMishra4) – Contributor
