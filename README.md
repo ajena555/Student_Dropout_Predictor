@@ -40,6 +40,7 @@ Educational institutions often struggle to proactively detect students likely to
 
 ## 🗂️ Project Structure
 
+```bash
 📁 edubot/
 │ ├── engine.py # LLM-powered chatbot
 │ └── knowledge/ # Markdown files for EduBot
@@ -54,7 +55,7 @@ Educational institutions often struggle to proactively detect students likely to
 ├── random.pkl
 ├── app.py
 └── README.md
-
+```
 
 ---
 
@@ -83,4 +84,32 @@ GROQ_API_KEY=your_actual_key_here
 streamlit run app.py
 ```
 
+---
 
+## 📄 PDF Report Example
+
+After submitting student info, the app generates a professional PDF:
+-Input details
+-Prediction: LIKELY TO DROP OUT / NOT LIKELY TO DROP OUT
+-Timestamp
+-Model confidence(if available)
+
+---
+
+## 🤖 EduBot Chat Support
+
+-EduBot is your built-in assistant. Ask questions like:
+-How does the model work?
+-What causes dropout?
+-How can parents help?
+-What does study time mean?
+
+It uses context-aware LLaMA-4 responses based on markdown knowledge files.
+
+---
+
+## 🤝 Collaborator
+
+This project was built with the help of:
+
+- [@username](https://github.com/AnkitaMishra4) – Contributor
